@@ -1,5 +1,7 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: Robolithic
+description: Innovating the Future with Robotics & Automation
+social:
+  twitter: robolithic
+  linkedin: robolithic
+email: info@robolithic.com
 theme: jekyll-theme-cayman

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Robolithic - Innovating the Future with Robotics & Automation
+title: Robolithic
 ---
 
 # Welcome to Robolithic

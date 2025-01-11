@@ -1,123 +1,68 @@
 ---
 layout: default
+title: Robolithic - Innovating the Future with Robotics & Automation
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Welcome to Robolithic
 
-[Contact us](./another-page.html).
+At **Robolithic**, we bring cutting-edge robotics and automation technologies to businesses, helping them streamline operations, increase efficiency, and stay ahead of the competition.
 
-There should be whitespace between paragraphs.
+[Explore Our Services](./services.html)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+---
 
-# Header 1
+## About Us
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Robolithic is a robotics and automation solutions provider dedicated to empowering industries with innovative, scalable, and reliable technologies. Founded with a vision to revolutionize industrial processes, Robolithic bridges the gap between complex robotics and practical, impactful solutions.
 
-## Header 2
+---
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Our Services
 
-### Header 3
+We specialize in delivering customized robotics and automation solutions to a wide range of industries. Here’s what we offer:
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+- **Robotics Integration**: Seamless robotic systems tailored to your business needs.
+- **Automation Systems**: Scalable automation solutions to enhance productivity and efficiency.
+- **Consulting Services**: Expert advice on robotics and automation technologies.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+[Learn More](./services.html)
 
-#### Header 4
+---
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Why Choose Us?
 
-##### Header 5
+> "When something is important enough, you do it even if the odds are not in your favor."  
+> — Elon Musk
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+At Robolithic, we prioritize innovation, reliability, and customer satisfaction. Partner with us to transform your business and achieve new heights of success.
 
-###### Header 6
+---
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+## Contact Us
 
-### There's a horizontal rule below this.
+We’d love to hear from you! Whether you have a project in mind or want to explore how robotics can benefit your business, feel free to reach out.
 
-* * *
+[Contact Us](./contact.html)
 
-### Here is an unordered list:
+---
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+## Projects & Case Studies
 
-### And an ordered list:
+| Project Name    | Description                       | Industry              |
+|:----------------|:----------------------------------|:----------------------|
+| Automation Alpha| Custom automation for packaging   | Manufacturing         |
+| RoboFleet       | Fleet management with AI-powered robotics | Logistics            |
+| SmartControl    | Intelligent control systems       | Industrial Automation |
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+---
 
-### And a nested list:
+## Stay Connected
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+Follow us on our journey to innovate the future:
 
-### Small image
+- [Twitter](https://twitter.com/robolithic)
+- [LinkedIn](https://linkedin.com/company/robolithic)
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+---
 
 
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```

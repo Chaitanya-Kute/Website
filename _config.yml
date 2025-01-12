@@ -1,7 +1,19 @@
 title: Robolithic
 description: Innovating the Future with Robotics & Automation
+
+# Social Links
 social:
   twitter: robolithic
   linkedin: robolithic
+
+# Email Address
 email: info@robolithic.com
+
+# Theme
 theme: jekyll-theme-cayman
+
+# Navigation Pages
+header_pages:
+  - index.md
+  - services.md
+  - contact.md

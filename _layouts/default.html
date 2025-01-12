@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8">
     {% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
@@ -13,30 +16,26 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
-      
-      {% if page.title == "Robolithic" %}
-        <!-- Display robot arm image only on the Home page -->
-        <div class="robot-arm-image">
-          <img src="/assets/images/robot-arm.png" alt="Robot Arm Illustration">
-        </div>
-      {% endif %}
-
-      <nav>
-        <ul>
-          <li><a href="{{ '/index.md' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/services.md' | relative_url }}">Services</a></li>
-          <li><a href="{{ '/contact.md' | relative_url }}">Contact</a></li>
-        </ul>
-      </nav>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
+
+      {% if page.title == "Robolithic" %}
+      <div class="image-section">
+        <img src="{{ '/assets/images/robot-arm.png' | relative_url }}" alt="Robot Arm Illustration" style="width:100%; max-width:600px; margin:auto; display:block;">
+        <p style="text-align:center; font-size:14px;">
+          <a href="https://www.freepik.com/free-vector/robot-arm-concept-illustration_21724469.htm#fromView=keyword&page=1&position=11&uuid=27f181c0-caae-4346-916c-6f874a3943dd&new_detail=true" target="_blank">Image by storyset on Freepik</a>
+        </p>
+      </div>
+      {% endif %}
     </main>
 
-    <footer class="site-footer" role="contentinfo">
-      <p>&copy; {{ site.title }}. All rights reserved.</p>
+    <footer class="site-footer" style="text-align: center; margin-top: 20px;">
+      <span class="site-footer-credits">
+        <strong>Robolithic</strong> - Your trusted partner in robotics and automation solutions.
+      </span>
     </footer>
   </body>
 </html>

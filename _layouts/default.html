@@ -17,28 +17,23 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <a href="/contact/" class="btn">Get a Free Consultation</a>
-      <!-- Hero Image -->
-      <div class="hero-image">
-        <img src="/assets/images/hero-robotics.jpg" alt="Robotics and Automation Solutions" style="width:100%; height:auto; margin-top:20px;">
-      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-      <!-- Additional Content and Images -->
-      <section>
-        <h2>Our Expertise</h2>
-        <p>At Robolithic, we specialize in delivering innovative robotics and automation solutions tailored to your needs. From industrial automation to home robotics, we make the future come alive.</p>
-        <img src="/assets/images/robotic-arm.jpg" alt="Robotic Arm in Action" style="width:100%; height:auto; margin-top:20px;">
-        <h2>Why Choose Us?</h2>
-        <ul>
-          <li>Customized robotics solutions</li>
-          <li>State-of-the-art technology</li>
-          <li>Dedicated customer support</li>
-        </ul>
-        <img src="/assets/images/automation-process.jpg" alt="Automation Process Workflow" style="width:100%; height:auto; margin-top:20px;">
-      </section>
+
+      <div class="image-section">
+        <img src="/assets/images/robot-arm.png" alt="Robot Arm Illustration" style="width:100%; max-width:600px; margin:auto; display:block;">
+        <p style="text-align:center; font-size:14px;">
+          <a href="https://www.freepik.com/free-vector/robot-arm-concept-illustration_21724469.htm#fromView=keyword&page=1&position=11&uuid=27f181c0-caae-4346-916c-6f874a3943dd&new_detail=true" target="_blank">Image by storyset on Freepik</a>
+        </p>
+      </div>
+
+      <footer class="site-footer">
+        <span class="site-footer-credits">
+          <strong>Robolithic</strong> - Your trusted partner in robotics and automation solutions.
+        </span>
+      </footer>
     </main>
   </body>
 </html>

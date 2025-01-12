@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
-
     {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
@@ -18,32 +17,28 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-
-      <!-- Button Section -->
       <a href="/contact/" class="btn">Get a Free Consultation</a>
-
       <!-- Hero Image -->
       <div class="hero-image">
-        <img src="/assets/images/hero-robotics.jpg" alt="Robotics and Automation Solutions" style="width: 100%; height: auto; margin-top: 20px;">
+        <img src="/assets/images/hero-robotics.jpg" alt="Robotics and Automation Solutions" style="width:100%; height:auto; margin-top:20px;">
       </div>
     </header>
 
     <main id="content" class="main-content" role="main">
+      {{ content }}
+      <!-- Additional Content and Images -->
       <section>
         <h2>Our Expertise</h2>
         <p>At Robolithic, we specialize in delivering innovative robotics and automation solutions tailored to your needs. From industrial automation to home robotics, we make the future come alive.</p>
-        <img src="/assets/images/robotic-arm.jpg" alt="Robotic Arm in Action" style="width: 100%; height: auto; margin-top: 20px;">
-
+        <img src="/assets/images/robotic-arm.jpg" alt="Robotic Arm in Action" style="width:100%; height:auto; margin-top:20px;">
         <h2>Why Choose Us?</h2>
         <ul>
           <li>Customized robotics solutions</li>
           <li>State-of-the-art technology</li>
           <li>Dedicated customer support</li>
         </ul>
-        <img src="/assets/images/automation-process.jpg" alt="Automation Process Workflow" style="width: 100%; height: auto; margin-top: 20px;">
+        <img src="/assets/images/automation-process.jpg" alt="Automation Process Workflow" style="width:100%; height:auto; margin-top:20px;">
       </section>
     </main>
-
-    <!-- Footer Section Removed -->
   </body>
 </html>
